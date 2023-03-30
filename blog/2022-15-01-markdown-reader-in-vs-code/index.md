@@ -2,7 +2,7 @@
 slug: markdown-reader-in-visual-studio-code
 title: Markdown Reader in Visual Studio Code
 authors: [jtjarks]
-date: 2022-01-15T18:00
+date: 2023-01-15T18:00
 tags: [Visual Studio Code, Markdown, MarkdownLint, Neovim]
 ---
 **Visual Studio Code besitzt einen built-in Markdown Reader, aufrufbar
