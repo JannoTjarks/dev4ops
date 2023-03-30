@@ -42,6 +42,16 @@ const config = {
                         copyright: `Copyright © ${new Date().getFullYear()} Dev4Ops by Janno Tjarks, Built with Docusaurus.`,
                     },
                 },
+                pages: {
+                    routeBasePath: 'pages',
+                    path: 'pages',
+                    include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
+                    mdxPageComponent: '@theme/MDXPage',
+                    remarkPlugins: [],
+                    rehypePlugins: [],
+                    beforeDefaultRemarkPlugins: [],
+                    beforeDefaultRehypePlugins: [],
+                }
             },
         ],
     ],
@@ -64,6 +74,23 @@ const config = {
             footer: {
                 style: 'dark',
                 links: [
+                    {
+                        title: 'Redaktion',
+                        items: [
+                            {
+                                label: 'Impressum',
+                                to: 'pages/impressum',
+                            },
+                            {
+                                label: 'Datenschutzerklärung',
+                                to: 'pages/datenschutzerklaerung',
+                            },
+                            {
+                                label: 'Herausgeber',
+                                href: 'https://www.jtjarks.de'
+                            }
+                        ],
+                    },
                     {
                         title: 'Kontakt',
                         items: [
